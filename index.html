@@ -6,10 +6,131 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    @media only screen and (min-width: 768px) {
+      /* tablets and desktop */
+    }
+
+    @media only screen and (max-width: 767px) {
+
+      /* phones */
+      body {
+        font-size: 11px;
+      }
+
+      h1 {
+        font-size: 14px;
+      }
+
+      li {
+        font-size: 11px;
+      }
+
+      .fixed {
+        width: 95%;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Hello World!</h1>
+  <div class="section mainbckgrnd">
+    <div class="oop"></div>
+    <div class="fixed ">
+      <h1 class="large">Quinton Fults</h1>
+      <p class="subheading">Full Stack Web Developer, Expert Educator, Award-Winning Community Advocate</p>
+      <a href="#section-1" class="hide-on-palm arrow-down">
+        <span class="fa-stack fa-3x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-chevron-down fa-stack-1x"></i>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div id="section-1" class="section">
+    <div class="fixed">
+      <h1>Over 7 years experience in Full Stack Software Development</h1>
+      <p>With an intricate grasp of the digital tapestry, I've journeyed from mastering foundational elements like HTML
+        to
+        conquering advanced realms including React and GraphQL. This extensive spectrum allows me to weave applications
+        that
+        don't just work, but inspire.</p>
+      <ul>
+        <li>
+          <strong>Client Side Skills</strong>
+          <p>HTML, CSS, Javascript</p>
+        </li>
+        <li>
+          <strong>Server Side Skills</strong>
+          <p>NodeJS, OOP, MVC, REST</p>
+        </li>
+        <li>
+          <strong>Database Management</strong>
+          <p>SQL (Postgres, MySQL), NoSQL (MongoDB)</p>
+        </li>
+        <li>
+          <strong>Advanced Skills</strong>
+          <p>ReactJS, GraphQL, Material UI</p>
+        </li>
+      </ul>
+      <a href="#section-2" class="hide-on-palm arrow-down">
+        <span class="fa-stack fa-3x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-chevron-down fa-stack-1x"></i>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div id="section-2" class="section">
+    <div class="fixed">
+      <h1>Over 6 years experience in Programming Education & Curriculum Development</h1>
+      <p>Beyond mere instruction, I've crafted curricula that don't just meet but set industry benchmarks. Through
+        tailored
+        lessons and interactive modules, I've seen the spark of comprehension ignite in countless students, affirming my
+        belief
+        in the transformative power of education.</p>
+      <ul>
+        <li>
+          <strong>Stacks & Focuses</strong>
+          <p>Full Stack Web Development, SQERN, MERN</p>
+        </li>
+        <li>
+          <strong>Soft Skills</strong>
+          <p>Public Speaking, Coaching & Mentoring, Collaboration</p>
+        </li>
+        <li>
+          <strong>Curriculum Development</strong>
+          <p>Git Management, Debugging, Experimentation, Goal-Setting & Planning</p>
+        </li>
+      </ul>
+      <a href="#section-3" class="hide-on-palm arrow-down">
+        <span class="fa-stack fa-3x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-chevron-down fa-stack-1x"></i>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div id="section-3" class="section">
+    <div class="fixed">
+      <h1>External Links</h1>
+      <a href="https://www.linkedin.com/in/quinton-fults-91a098129/" class="linkSize">
+        <span class="fa-stack fa-5x">
+          <i class="fa-brands fa-linkedin "></i>
+        </span>
+      </a>
+      <a href="https://github.com/QFults" class="linkSize">
+        <span class="fa-stack fa-5x">
+          <i class="fa-brands fa-github "></i>
+        </span>
+      </a>
+    </div>
+  </div>
 </body>
 
 </html>
